@@ -1,4 +1,3 @@
-
 from typing import List
 
 
@@ -16,6 +15,7 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     """
     # TODO: Implement sum_of_squares_of_even
     return sum(number ** 2 for number in even_int_list)
+
 
 def main():
     int_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
